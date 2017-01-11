@@ -1,21 +1,18 @@
 $(document).ready(function() {
   $("#blanks form").submit(function(event) {
-    var person1Input = $("input#person1").val();
-    var person2Input = $("input#person2").val();
-    var animalInput = $("input#animal").val();
-    var exclamationInput = $("input#exclamation").val();
-    var verbInput = $("input#verb").val();
-    var nounInput = $("input#noun").val();
+    var firstNameInput = $("input#first-name").val();
+    var lastNameInput = $("input#last-name").val();
+    var streetAddressInput = $("input#street-address").val();
+    var cityInput = $("input#city").val();
+    var stateInput = $("input#state").val();
+    var zipcodeInput = $("input#zipcode").val();
 
-
-
-    $(".person1").append("person1Input");
-    $(".person2").append("person2Input");
-    $(".animal").append("animalInput");
-    $(".exclamation").append("exclamationInput");
-    $(".verb").append("verbInput");
-    $(".noun").append("nounInput");
-
+    $(".firstName").text(firstNameInput);
+    $(".lastName").text(lastNameInput);
+    $(".streetAddress").text(streetAddressInput);
+    $(".city").text(cityInput);
+    $(".state").text(stateInput);
+    $(".zipcode").text(zipcodeInput);
 
 
     $("#story").show();
