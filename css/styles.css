@@ -1,7 +1,32 @@
-#story {
+#letter {
   display: none;
+  background-image: url("https://4.bp.blogspot.com/-GY_RytMqV4A/UK6Pf-wCUZI/AAAAAAAAHMo/6sV98oTwIR0/s1600/1910postcardback01.jpg");
+  background-size: 100%;
+  padding-bottom: 40%;
+  background-repeat: no-repeat;
+  /*border: 2px solid red;*/
+  font-family: 'Cutive Mono', monospace;
+  letter-spacing: -4px;
+  padding-top: 23%;
+  margin: 5% auto;
+
 }
 
 span {
   color: red;
+}
+
+#the-address {
+  /*border: 2px solid red;*/
+  float: left;
+  font-size: 30px;
+  margin-top: 5%;
+  margin-left: 8%;
+}
+
+#the-body {
+  /*border: 2px solid red;*/
+  float: right;
+  width: 60%;
+  font-size: 25px;
 }

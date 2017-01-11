@@ -15,7 +15,7 @@ $(document).ready(function() {
     $(".zipcode").text(zipcodeInput);
 
 
-    $("#story").show();
+    $("#letter").show();
 
     event.preventDefault();
   });
